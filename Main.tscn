@@ -6,10 +6,6 @@
 
 [node name="Main" type="Node2D"]
 
-[node name="Polygon2D" type="Polygon2D" parent="."]
-color = Color( 0, 0, 0, 1 )
-polygon = PoolVector2Array( -0.00143242, -0.0277424, 480, 0, 480, 270, 0, 270 )
-
 [node name="Water2D" type="Sprite" parent="."]
 material = ExtResource( 2 )
 position = Vector2( 240, 167 )

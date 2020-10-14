@@ -173,6 +173,6 @@ shader_param/impact_pos_5 = Vector2( -1, -1 )
 shader_param/impact_pos_6 = Vector2( -1, -1 )
 shader_param/impact_pos_7 = Vector2( -1, -1 )
 shader_param/scale = Vector2( 7.5, 3.21875 )
-shader_param/current_time = 4.541
+shader_param/current_time = 58.644
 shader_param/noise1 = SubResource( 3 )
 shader_param/noise2 = SubResource( 5 )
