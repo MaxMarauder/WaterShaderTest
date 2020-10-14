@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://addons/water2d/icon.png" type="Texture" id=1]
+[ext_resource path="res://addons/water2d/water2D_material.tres" type="Material" id=2]
+[ext_resource path="res://addons/water2d/Water2D.gd" type="Script" id=3]
+
+[node name="Main" type="Node2D"]
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+color = Color( 0, 0, 0, 1 )
+polygon = PoolVector2Array( -0.00143242, -0.0277424, 480, 0, 480, 270, 0, 270 )
+
+[node name="Water2D" type="Sprite" parent="."]
+material = ExtResource( 2 )
+position = Vector2( 240, 167 )
+scale = Vector2( 7.5, 3.21875 )
+texture = ExtResource( 1 )
+script = ExtResource( 3 )
+automatic_impact = true
+surface_type = 1
+deformation_speed_1 = Vector2( 1, 1 )
+deformation_speed_2 = Vector2( -2, -2 )
+deformation_strength = Vector2( 1, 1 )
+deformation_size = Vector2( 1, 1 )
+water_level = 20.0
+water_color = Color( 0, 0, 1, 0.75 )
+surface_width = 16.0
+surface_color = Color( 1, 1, 1, 0.75 )
+surface_deformation_strength = 2.0
+wave_speed = 1.0
+wave_distance_attenuation = 1.0
+wave_time_attenuation = 1.0
